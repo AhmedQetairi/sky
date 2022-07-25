@@ -1,0 +1,1217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="studio_customization.default_form_view_fo_38440c72-0efa-4a74-973b-327befd7352d" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="Position">
+          <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+          <field name="x_active" invisible="1"/>
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_3d5374">
+            <group name="studio_group_3d5374_left"/>
+            <group name="studio_group_3d5374_right"/>
+          </group>
+        </sheet>
+        <div class="oe_chatter" name="oe_chatter">
+          <field name="message_follower_ids"/>
+          <field name="message_ids"/>
+          <field name="activity_ids"/>
+        </div>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_position</field>
+    <field name="name">Default form view for x_position</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_40e0ea71-2f1a-48b5-9435-bc4874a05232" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="District">
+          <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+          <field name="x_active" invisible="1"/>
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_739b31">
+            <group name="studio_group_739b31_left"/>
+            <group name="studio_group_739b31_right"/>
+          </group>
+        </sheet>
+        <div class="oe_chatter" name="oe_chatter">
+          <field name="message_follower_ids"/>
+          <field name="message_ids"/>
+          <field name="activity_ids"/>
+        </div>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_district</field>
+    <field name="name">Default form view for x_district</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_5086a028-d9a9-4a53-8db8-606ff1d3521e" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="Resources Items">
+          <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+          <field name="x_active" invisible="1"/>
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_6a800c">
+            <group name="studio_group_6a800c_left"/>
+            <group name="studio_group_6a800c_right"/>
+          </group>
+        </sheet>
+        <div class="oe_chatter" name="oe_chatter">
+          <field name="message_follower_ids"/>
+          <field name="message_ids"/>
+          <field name="activity_ids"/>
+        </div>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_resources_items</field>
+    <field name="name">Default form view for x_resources_items</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_68c7ce72-a353-4988-8a86-e14006b9b0f3" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="billboards_line">
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_4d48d4">
+            <group name="studio_group_4d48d4_left"/>
+            <group name="studio_group_4d48d4_right"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards_line_052fc</field>
+    <field name="name">Default form view for x_billboards_line_052fc</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_862e8ac6-62ea-4ebe-9a8b-264facfef414" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="Project Sky">
+          <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+          <field name="x_active" invisible="1"/>
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_7b343a">
+            <group name="studio_group_7b343a_left"/>
+            <group name="studio_group_7b343a_right"/>
+          </group>
+        </sheet>
+        <div class="oe_chatter" name="oe_chatter">
+          <field name="message_follower_ids"/>
+          <field name="message_ids"/>
+          <field name="activity_ids"/>
+        </div>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_project_sky</field>
+    <field name="name">Default form view for x_project_sky</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_8b1e1385-3b03-4119-92d9-3831529d8080" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="billboards_line">
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_c7eb9d">
+            <group name="studio_group_c7eb9d_left"/>
+            <group name="studio_group_c7eb9d_right"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards_line_4effb</field>
+    <field name="name">Default form view for x_billboards_line_4effb</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_aebc5dfa-1e6a-4fa8-8876-f682f7643a60" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="Location">
+          <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+          <field name="x_active" invisible="1"/>
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_c14230">
+            <group name="studio_group_c14230_left"/>
+            <group name="studio_group_c14230_right"/>
+          </group>
+        </sheet>
+        <div class="oe_chatter" name="oe_chatter">
+          <field name="message_follower_ids"/>
+          <field name="message_ids"/>
+          <field name="activity_ids"/>
+        </div>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_location</field>
+    <field name="name">Default form view for x_location</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_bf4e1ae1-1b3b-4e0d-90be-504e9413b208" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="Package">
+          <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+          <field name="x_active" invisible="1"/>
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_420b5e">
+            <group name="studio_group_420b5e_left"/>
+            <group name="studio_group_420b5e_right"/>
+          </group>
+        </sheet>
+        <div class="oe_chatter" name="oe_chatter">
+          <field name="message_follower_ids"/>
+          <field name="message_ids"/>
+          <field name="activity_ids"/>
+        </div>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_package</field>
+    <field name="name">Default form view for x_package</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_c591a4c1-8c4a-491d-a09c-42591310a9f9" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="Billboards">
+          <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+          <field name="x_active" invisible="1"/>
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_3f41b9">
+            <group name="studio_group_3f41b9_left"/>
+            <group name="studio_group_3f41b9_right"/>
+          </group>
+        </sheet>
+        <div class="oe_chatter" name="oe_chatter">
+          <field name="message_follower_ids"/>
+          <field name="message_ids"/>
+          <field name="activity_ids"/>
+        </div>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards</field>
+    <field name="name">Default form view for x_billboards</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_db5fee8c-d082-4729-b3dd-4badca91118a" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="billboards_line">
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_74c04d">
+            <group name="studio_group_74c04d_left"/>
+            <group name="studio_group_74c04d_right"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards_line_46121</field>
+    <field name="name">Default form view for x_billboards_line_46121</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_e7413f4e-cccf-4ff8-aca7-37fdf4fd5767" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="City">
+          <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+          <field name="x_active" invisible="1"/>
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_2e7816">
+            <group name="studio_group_2e7816_left"/>
+            <group name="studio_group_2e7816_right"/>
+          </group>
+        </sheet>
+        <div class="oe_chatter" name="oe_chatter">
+          <field name="message_follower_ids"/>
+          <field name="message_ids"/>
+          <field name="activity_ids"/>
+        </div>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_city</field>
+    <field name="name">Default form view for x_city</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_form_view_fo_fc32cd93-f114-4932-8a58-aac7eb1ec715" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <header/>
+        <sheet string="Item">
+          <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+          <field name="x_active" invisible="1"/>
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1" placeholder="Name..."/>
+            </h1>
+          </div>
+          <group name="studio_group_7bdf33">
+            <group name="studio_group_7bdf33_left"/>
+            <group name="studio_group_7bdf33_right"/>
+          </group>
+        </sheet>
+        <div class="oe_chatter" name="oe_chatter">
+          <field name="message_follower_ids"/>
+          <field name="message_ids"/>
+          <field name="activity_ids"/>
+        </div>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_item</field>
+    <field name="name">Default form view for x_item</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_093195ef-067b-46da-b1e7-ed63b177f291" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_project_sky</field>
+    <field name="name">Default list view for x_project_sky</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_15e67a0e-9228-47ca-b2a1-af90937578c6" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_package</field>
+    <field name="name">Default list view for x_package</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_43a490ee-c2ea-49fb-ac94-b9fdd1c0b056" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_position</field>
+    <field name="name">Default list view for x_position</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_4947960e-877a-4b9b-a906-2b6be67f9d00" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards_line_46121</field>
+    <field name="name">Default list view for x_billboards_line_46121</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_857f6120-76cc-4f42-a921-4f4732e5a35a" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_item</field>
+    <field name="name">Default list view for x_item</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_8b7037e5-11f8-4039-8604-084192280dc1" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_location</field>
+    <field name="name">Default list view for x_location</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_9883c9cf-a345-453e-9f73-d31217b46f83" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards_line_4effb</field>
+    <field name="name">Default list view for x_billboards_line_4effb</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_c17d7f7d-d11e-4cda-a1eb-9088ab8bc45e" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_district</field>
+    <field name="name">Default list view for x_district</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_c39197b0-2752-4a23-8ee3-1129f841dc90" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_resources_items</field>
+    <field name="name">Default list view for x_resources_items</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_f101549b-f612-4447-9f27-83153fc76c80" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_city</field>
+    <field name="name">Default list view for x_city</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_f91b0314-662c-43cc-a700-4f82d21c817f" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards_line_052fc</field>
+    <field name="name">Default list view for x_billboards_line_052fc</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_list_view_fo_fdbf20ac-c5b9-49a6-bd2f-1465fe88acfb" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards</field>
+    <field name="name">Default list view for x_billboards</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.default_search_view__2620bd9d-5ec1-48ef-b079-f849b300bcf0" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+        <separator/>
+        <filter string="Archived" name="archived_x_city" domain="[['x_active', '=', False]]"/>
+        <separator/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_city</field>
+    <field name="name">Default search view for x_city</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__2911db45-8b17-4c84-9e49-e7a434bf1aa1" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+        <separator/>
+        <filter string="Archived" name="archived_x_location" domain="[['x_active', '=', False]]"/>
+        <separator/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_location</field>
+    <field name="name">Default search view for x_location</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__414b9f17-9582-4e34-b595-d829f49804aa" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards_line_052fc</field>
+    <field name="name">Default search view for x_billboards_line_052fc</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__7c0aba86-1749-424f-8571-de1d1a076869" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards_line_46121</field>
+    <field name="name">Default search view for x_billboards_line_46121</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__80af14ad-1e37-4534-999b-e86a8ecf7c97" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards_line_4effb</field>
+    <field name="name">Default search view for x_billboards_line_4effb</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__85480bcd-b1de-473d-a09a-12b75dc9b080" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+        <separator/>
+        <filter string="Archived" name="archived_x_item" domain="[['x_active', '=', False]]"/>
+        <separator/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_item</field>
+    <field name="name">Default search view for x_item</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__8f72db9e-5e00-468b-a9ca-2d376ba34923" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+        <separator/>
+        <filter string="Archived" name="archived_x_project_sky" domain="[['x_active', '=', False]]"/>
+        <separator/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_project_sky</field>
+    <field name="name">Default search view for x_project_sky</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__c3ae0aca-1a65-4ce9-aa87-59a7e8d00847" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+        <separator/>
+        <filter string="Archived" name="archived_x_position" domain="[['x_active', '=', False]]"/>
+        <separator/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_position</field>
+    <field name="name">Default search view for x_position</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__d33fbb93-2b5d-4a17-84f1-9129b98c5f30" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+        <separator/>
+        <filter string="Archived" name="archived_x_billboards" domain="[['x_active', '=', False]]"/>
+        <separator/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_billboards</field>
+    <field name="name">Default search view for x_billboards</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__d5b22f1c-493a-458f-ac6c-6dc7e0b73ca6" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+        <separator/>
+        <filter string="Archived" name="archived_x_package" domain="[['x_active', '=', False]]"/>
+        <separator/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_package</field>
+    <field name="name">Default search view for x_package</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__f0c948ad-e2d7-425b-8605-777d824401b5" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+        <separator/>
+        <filter string="Archived" name="archived_x_resources_items" domain="[['x_active', '=', False]]"/>
+        <separator/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_resources_items</field>
+    <field name="name">Default search view for x_resources_items</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.default_search_view__fd492cfd-9477-4c8c-86f1-bcb9a03df80b" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+        <separator/>
+        <filter string="Archived" name="archived_x_district" domain="[['x_active', '=', False]]"/>
+        <separator/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_district</field>
+    <field name="name">Default search view for x_district</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
+  <record id="studio_customization.odoo_studio_default__13999ad9-5ab8-42aa-9c0b-6ab8cf0a7279" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='x_name']" position="attributes">
+          <attribute name="string">Information</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_3f41b9_left']" position="inside">
+          <field name="x_studio_billboard_name" string="Billboard Name"/>
+          <field name="x_studio_description" string="Description"/>
+          <field name="x_studio_billboard_id" string="Billboard ID"/>
+          <field name="x_studio_many2one_field_gn3aw"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_3f41b9_right']" position="inside">
+          <field name="x_studio_many2one_field_oKdbL"/>
+          <field name="x_studio_many2one_field_KjMcE"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_3f41b9']" position="after">
+          <notebook name="studio_notebook_t4r4X">
+            <page string="Specifications" name="studio_page_t4r4X">
+              <group name="studio_group_t4r4X">
+                <group name="studio_group_t4r4X_left">
+                  <field name="x_studio_selection_field_rW6cr" string="Billboard Shape"/>
+                  <field name="x_studio_category" string="Category"/>
+                  <field name="x_studio_number_of_faces" string="Number of Faces"/>
+                </group>
+                <group name="studio_group_t4r4X_right">
+                  <field name="x_studio_width" string="Width"/>
+                  <field name="x_studio_height" string="Height"/>
+                  <field name="x_studio_total_area" string="Total area" force_save="True" attrs="{}" readonly="1"/>
+                </group>
+              </group>
+            </page>
+            <page string="Billboard Status" name="studio_page_mcWsN">
+              <group name="studio_group_mcWsN">
+                <group name="studio_group_mcWsN_left"/>
+                <group name="studio_group_mcWsN_right"/>
+              </group>
+            </page>
+          </notebook>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_c591a4c1-8c4a-491d-a09c-42591310a9f9"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">x_billboards</field>
+    <field name="name">Odoo Studio: Default form view for x_billboards customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.odoo_studio_default__2e2ad28d-5d80-4573-a296-217a24acead1" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='x_name']" position="after">
+          <field name="x_studio_start_date" optional="show"/>
+          <field name="x_studio_end_date" optional="show"/>
+          <field name="x_studio_project_status" optional="show"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="studio_customization.default_list_view_fo_093195ef-067b-46da-b1e7-ed63b177f291"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">x_project_sky</field>
+    <field name="name">Odoo Studio: Default list view for x_project_sky customization</field>
+    <field name="priority">99</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.odoo_studio_default__499c28ba-f2e4-4a5f-ac95-66a8dc77d2b4" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='x_name']" position="after">
+          <field name="x_studio_delivery_date" optional="show"/>
+          <field name="x_studio_description" optional="show"/>
+          <field name="x_studio_package_cost_price_1" optional="show"/>
+          <field name="x_studio_profit_margin_1" optional="show"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="studio_customization.default_list_view_fo_c39197b0-2752-4a23-8ee3-1129f841dc90"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">x_resources_items</field>
+    <field name="name">Odoo Studio: Default list view for x_resources_items customization</field>
+    <field name="priority">99</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.odoo_studio_default__b6804b85-2217-42bf-8d8c-fe405e77f960" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//group[@name='studio_group_7b343a']" position="replace">
+          <notebook name="studio_notebook_Z4mJQ">
+            <page string="General" name="studio_page_Z4mJQ">
+              <group name="studio_group_Z4mJQ">
+                <group name="studio_group_Z4mJQ_left">
+                  <field name="x_studio_add_name" string="add name"/>
+                  <field name="x_studio_account" string="Account"/>
+                  <field name="x_studio_project_status" string="Project status"/>
+                  <field name="x_studio_start_date" string="Start Date"/>
+                  <field name="x_studio_end_date" string="End Date"/>
+                </group>
+                <group name="studio_group_Z4mJQ_right">
+                  <field name="x_studio_currency" string="Currency" widget="timezone_mismatch"/>
+                  <field name="x_studio_initial_budget" string="Initial Budget"/>
+                  <field name="x_studio_project_number" string="Project Number"/>
+                  <field name="x_studio_project_status_1" string="Project status" widget="radio"/>
+                </group>
+              </group>
+              <group name="studio_group_cY0nT">
+                <group name="studio_group_cY0nT_left">
+                  <field name="x_studio_items_list" string="Items List" widget="many2many">
+                    <tree>
+                      <field name="x_studio_sequence" widget="handle"/>
+                      <field name="x_name"/>
+                      <field name="x_studio_delivery_date" optional="show"/>
+                      <field name="x_studio_description" optional="show"/>
+                      <field name="x_studio_package_cost_price_1" optional="show"/>
+                      <field name="x_studio_profit_margin_1" optional="show"/>
+                      <field optional="show" name="x_studio_subtotal_selling_price" string="Subtotal Selling Price"/>
+                    </tree>
+                    <form>
+                      <header/>
+                      <sheet string="Resources Items" name="studio_sheet_057f97">
+                        <widget name="web_ribbon" text="Archived" bg_color="bg-danger" attrs="{'invisible': [('x_active', '=', True)]}"/>
+                        <field name="x_active" invisible="1"/>
+                        <div class="oe_title" name="studio_div_4d4cc1">
+                </div>
+                        <notebook name="studio_notebook_31khy">
+                          <page string="Add a Package" name="studio_page_31khy">
+                            <group name="studio_group_31khy">
+                              <group name="studio_group_31khy_left">
+                                <field name="x_name"/>
+                                <field name="x_studio_vendor" string="Vendor"/>
+                                <field name="x_studio_unitpackage" string="Unit/Package"/>
+                                <field name="x_studio_package_cost_price_1" string="Package Cost Price"/>
+                                <field name="x_studio_profit_margin_1" string="Profit Margin"/>
+                                <field name="x_studio_income" string="Income"/>
+                              </group>
+                              <group name="studio_group_31khy_right">
+                                <field name="x_studio_description" string="Description"/>
+                                <field name="x_studio_delivery_date" string="Delivery date"/>
+                              </group>
+                            </group>
+                          </page>
+                          <page string="Management Fees" name="studio_page_Gij6f">
+                            <group name="studio_group_Gij6f">
+                              <group name="studio_group_Gij6f_left">
+                                <field name="x_studio_management_fees" string="Management Fees"/>
+                              </group>
+                            </group>
+                          </page>
+                          <page string="Vat Value" name="studio_page_RXn87">
+                            <group name="studio_group_RXn87">
+                              <group name="studio_group_RXn87_left">
+                                <field name="x_studio_vat_value" string="Vat Value"/>
+                              </group>
+                            </group>
+                          </page>
+                        </notebook>
+                      </sheet>
+                    </form>
+                  </field>
+                  <field name="x_studio_total_price" string="Total price"/>
+                </group>
+              </group>
+            </page>
+          </notebook>
+        </xpath>
+        <xpath expr="//form[1]/sheet[1]/div[1]/h1[1]/field[@name='x_name']" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="force_save">True</attribute>
+          <attribute name="placeholder">Project Name</attribute>
+          <attribute name="readonly">1</attribute>
+          <attribute name="string">New</attribute>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_862e8ac6-62ea-4ebe-9a8b-264facfef414"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">x_project_sky</field>
+    <field name="name">Odoo Studio: Default form view for x_project_sky customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.odoo_studio_default__d00a66dd-4241-467e-9f4e-57be7da95f65" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//group[@name='studio_group_6a800c']" position="replace">
+          <notebook name="studio_notebook_31khy">
+            <page string="Add a Package" name="studio_page_31khy">
+              <group name="studio_group_31khy">
+                <group name="studio_group_31khy_left">
+                  <field name="x_studio_package_1" string="Package"/>
+                  <field name="x_studio_vendor" string="Vendor"/>
+                  <field name="x_studio_unitpackage" string="Unit/Package"/>
+                  <field name="x_studio_package_cost_price" string="Package Cost Price"/>
+                  <field name="x_studio_profit_margin" string="Profit Margin"/>
+                </group>
+                <group name="studio_group_31khy_right">
+                  <field name="x_studio_description" string="Description"/>
+                  <field name="x_studio_delivery_date" string="Vat Value"/>
+                </group>
+              </group>
+            </page>
+            <page string="Management Fees" name="studio_page_Gij6f">
+              <group name="studio_group_Gij6f">
+                <group name="studio_group_Gij6f_left">
+                  <field name="x_studio_management_fees" string="Management Fees"/>
+                </group>
+              </group>
+            </page>
+            <page string="Vat Value" name="studio_page_RXn87">
+              <group name="studio_group_RXn87">
+                <group name="studio_group_RXn87_left">
+                  <field name="x_studio_vat_value" string="Vat Value"/>
+                </group>
+              </group>
+            </page>
+          </notebook>
+        </xpath>
+        <xpath expr="//form[1]/sheet[1]/div[1]/h1[1]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[1]" position="before">
+          <field name="x_studio_package"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[1]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[1]" position="before">
+          <field name="x_name"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[2]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[2]/field[2]" position="attributes">
+          <attribute name="string">Delivery date</attribute>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[2]/field[1]" position="after">
+          <xpath expr="//field[@name='x_studio_delivery_date'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[4]" position="after">
+          <xpath expr="//field[@name='x_studio_profit_margin'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[5]" position="after">
+          <field name="x_studio_income"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[6]" position="attributes">
+          <attribute name="string">Income</attribute>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[4]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[4]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[3]" position="after">
+          <field name="x_studio_package_cost_price_1"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[4]" position="attributes">
+          <attribute name="string">Package Cost Price</attribute>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[4]" position="after">
+          <field name="x_studio_profit_margin_1"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[5]" position="attributes">
+          <attribute name="string">Profit Margin</attribute>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[6]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]/group[1]/group[1]/field[5]" position="after">
+          <field name="x_studio_subtotal_selling_price"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_5086a028-d9a9-4a53-8db8-606ff1d3521e"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">x_resources_items</field>
+    <field name="name">Odoo Studio: Default form view for x_resources_items customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.studio_main_report_915631c4-4d35-4a4e-a74e-e6311acbff72" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <t t-name="studio_main_report">
+        <t t-call="web.html_container">
+          <t t-foreach="docs" t-as="doc">
+            <t t-call="studio_customization.studio_report_docume_472a2a7e-d8f4-4140-bdb4-d7ff5c7687d4_document"/>
+          </t>
+        </t>
+      </t>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key">studio_customization.studio_report_docume_472a2a7e-d8f4-4140-bdb4-d7ff5c7687d4</field>
+    <field name="mode">primary</field>
+    <field name="model" eval="False"/>
+    <field name="name">studio_customization.studio_report_docume_472a2a7e-d8f4-4140-bdb4-d7ff5c7687d4</field>
+    <field name="priority">16</field>
+    <field name="type">qweb</field>
+  </record>
+  <record id="studio_customization.studio_main_report_97c0de1b-39ee-4498-866d-d552ba3e3792" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <t t-name="studio_main_report">
+        <t t-call="web.html_container">
+          <t t-foreach="docs" t-as="doc">
+            <t t-call="studio_customization.studio_report_docume_bbbf969a-724c-40f2-8023-a246e45c1cb5_document"/>
+          </t>
+        </t>
+      </t>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key">studio_customization.studio_report_docume_bbbf969a-724c-40f2-8023-a246e45c1cb5</field>
+    <field name="mode">primary</field>
+    <field name="model" eval="False"/>
+    <field name="name">studio_customization.studio_report_docume_bbbf969a-724c-40f2-8023-a246e45c1cb5</field>
+    <field name="priority">16</field>
+    <field name="type">qweb</field>
+  </record>
+  <record id="studio_customization.studio_report_docume_472a2a7e-d8f4-4140-bdb4-d7ff5c7687d4" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <t t-name="studio_report_document">
+        <t t-call="web.internal_layout">
+          <div class="page"/>
+        </t>
+      </t>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key">studio_customization.studio_report_docume_472a2a7e-d8f4-4140-bdb4-d7ff5c7687d4_document</field>
+    <field name="mode">primary</field>
+    <field name="model" eval="False"/>
+    <field name="name">studio_customization.studio_report_docume_472a2a7e-d8f4-4140-bdb4-d7ff5c7687d4_document</field>
+    <field name="priority">16</field>
+    <field name="type">qweb</field>
+  </record>
+  <record id="studio_customization.studio_report_docume_bbbf969a-724c-40f2-8023-a246e45c1cb5" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <t t-name="studio_report_document">
+        <t t-call="web.internal_layout">
+          <div class="page"/>
+        </t>
+      </t>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key">studio_customization.studio_report_docume_bbbf969a-724c-40f2-8023-a246e45c1cb5_document</field>
+    <field name="mode">primary</field>
+    <field name="model" eval="False"/>
+    <field name="name">studio_customization.studio_report_docume_bbbf969a-724c-40f2-8023-a246e45c1cb5_document</field>
+    <field name="priority">16</field>
+    <field name="type">qweb</field>
+  </record>
+</odoo>

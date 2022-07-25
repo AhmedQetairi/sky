@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="studio_customization.project_sky_report_20f039a3-7c9c-4a36-90ae-7f184d51ece9" model="ir.actions.report" context="{'studio': True}">
+    <field name="attachment" eval="False"/>
+    <field name="attachment_use" eval="False"/>
+    <field name="binding_model_id" ref="studio_customization.project_sky_26fbae63-80e4-4a63-bc64-9e27710e3c2e"/>
+    <field name="binding_type">report</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="model">x_project_sky</field>
+    <field name="multi" eval="False"/>
+    <field name="name">Project Sky Report</field>
+    <field name="paperformat_id" eval="False"/>
+    <field name="report_name">studio_customization.studio_report_docume_472a2a7e-d8f4-4140-bdb4-d7ff5c7687d4</field>
+    <field name="report_type">qweb-pdf</field>
+  </record>
+  <record id="studio_customization.project_sky_report_fa607bea-4833-4425-8da5-6d73479053ab" model="ir.actions.report" context="{'studio': True}">
+    <field name="attachment" eval="False"/>
+    <field name="attachment_use" eval="False"/>
+    <field name="binding_model_id" ref="studio_customization.project_sky_26fbae63-80e4-4a63-bc64-9e27710e3c2e"/>
+    <field name="binding_type">report</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="model">x_project_sky</field>
+    <field name="multi" eval="False"/>
+    <field name="name">Project Sky Report</field>
+    <field name="paperformat_id" eval="False"/>
+    <field name="report_name">studio_customization.studio_report_docume_bbbf969a-724c-40f2-8023-a246e45c1cb5</field>
+    <field name="report_type">qweb-pdf</field>
+  </record>
+</odoo>
